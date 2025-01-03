@@ -3,7 +3,7 @@ import React from 'react'
 function Counter(props) {
   return (
     <div>
-      <h2>Count: {props.count}</h2>
+      <h2>{props.title} {props.count}</h2>
     </div>
   )
 }

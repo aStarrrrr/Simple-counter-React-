@@ -11,7 +11,8 @@ function App() {
   }
   return (
     <div>
-      <Counter count={count}/>
+      <Counter title='First counter' count={count}/>
+      <Counter title='Second counter' count={count}/>
       <button onClick={Increment}>Increment</button>
       <button onClick={Decrement}>Decrement</button>
     </div>
